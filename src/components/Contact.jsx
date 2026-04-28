@@ -8,7 +8,7 @@ export default function Contact() {
       <div className="cls fu">
         <button className="cl prim" onClick={() => window.open('mailto:muniapriyansu@gmail.com')}>Email Me</button>
         <span className="cl" style={{ cursor: 'default' }}>+91 79783 84911</span>
-        <button className="cl" onClick={() => window.open('https://tryhackme.com/muniapriyansu')}>TryHackMe</button>
+        <button className="cl" onClick={() => window.open('https://tryhackme.com/p/muniapriyansu')}>TryHackMe</button>
       </div>
     </div>
   );

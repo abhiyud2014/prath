@@ -38,12 +38,12 @@ export default function Navbar({ theme, setTheme }) {
   }, []);
 
   return (
-    <div ref={menuRef}>
+    <div ref={menuRef} style={{ position: 'relative' }}>
       <nav>
         <div
           className="logo"
           onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }); closeMenu(); }}
-          style={{ cursor: 'pointer' }}
+          style={{ cursor: 'pointer', flexShrink: 0 }}
         >
           P<span>.</span>Rath
         </div>

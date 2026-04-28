@@ -12,6 +12,8 @@ import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+import GoToTop from './components/GoToTop';
+
 export default function App() {
   const [theme, setTheme] = useState('dark');
   const canvasRef = useParticleCanvas(theme);
@@ -43,6 +45,7 @@ export default function App() {
       <div className="sd" />
       <Contact />
       <Footer />
+      <GoToTop />
     </div>
   );
 }
